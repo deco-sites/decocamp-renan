@@ -7,7 +7,7 @@
     },
     {
       "__resolveType": "site/sections/Content/Hero.tsx",
-      "description": "Somos uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas. Criada usando a plataforma da Deco.cx. ",
+      "description": "Na \"Conexões Culturais\", celebramos a diversidade cultural e promovemos a inclusão através de produtos e experiências inspiradas nas diferentes culturas do Brasil. Nossa loja online é uma plataforma interativa onde pessoas podem aprender, compartilhar e se conectar por meio de vivências culturais significativas. Para materializar essa visão, escolhemos a deco.cx, uma plataforma moderna que nos permite criar um site ultrarrápido e altamente personalizável. Com a deco.cx, podemos gerenciar nosso conteúdo facilmente, utilizando uma stack tecnológica eficiente com Preact, Tailwind e Deno, garantindo desempenho excepcional e uma experiência de usuário de alta qualidade. A infraestrutura global de deploy da deco.cx assegura que nossos visitantes tenham a melhor navegação, melhorando nosso SEO e aumentando nossas taxas de conversão. Assim, podemos focar no que realmente importa: proporcionar aos nossos clientes uma jornada de descobertas inesquecíveis e celebrar a diversidade que torna o Brasil tão especial.",
       "title": "<div><div>Conexões Culturais</div></div>",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/c5871dd8-e06c-44b1-affa-d7a82132072b",
       "placement": "right",
@@ -18,6 +18,27 @@
           "text": "Conheça a Deco.cx"
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/Content/Benefits.tsx",
+      "benefits": [
+        {
+          "icon": "Heart",
+          "label": "Culinária Internacional",
+          "description": "Uma seção dedicada a ingredientes autênticos, especiarias e receitas tradicionais de diversas culinárias ao redor do mundo. Os clientes podem comprar kits de ingredientes para preparar pratos típicos de diferentes países e também participar de workshops de culinária ao vivo conduzidos por chefs locais."
+        },
+        {
+          "icon": "User",
+          "description": "Uma coleção de artesanatos únicos, obras de arte e decorações inspiradas em diversas culturas. Isso inclui esculturas, máscaras tribais, pinturas, tecelagens, cerâmicas e outros itens feitos à mão por artistas locais de diferentes partes do mundo.",
+          "label": "Artes e Artesanato"
+        },
+        {
+          "icon": "Star",
+          "label": "Moda e Acessórios",
+          "description": "Uma variedade de roupas, acessórios e joias inspiradas em estilos tradicionais de diferentes culturas. Isso inclui roupas étnicas, lenços bordados à mão, bolsas de couro artesanais e muito mais, tudo projetado por designers locais que valorizam técnicas de fabricação tradicionais."
+        }
+      ],
+      "title": "Nossos produtos e experiências vão te supreender"
     },
     {
       "__resolveType": "Footer - 04"

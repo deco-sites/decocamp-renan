@@ -27,34 +27,37 @@ export interface Props {
   };
 }
 
-export default function Benefits(
-  props: Props,
-) {
+export default function Benefits(props: Props) {
   const {
     title = "Benefits",
-    description = "Check out the benefits",
-    benefits = [{
-      icon: "Truck",
-      label: "Entrega em todo Brasil",
-      description: "Consulte o prazo no fechamento da compra.",
-    }, {
-      icon: "Discount",
-      label: "15% na primeira compra",
-      description: "Aplicado direto na sacola de compras.",
-    }, {
-      icon: "ArrowsPointingOut",
-      label: "Devolução grátis",
-      description: "Veja as condições para devolver seu produto.",
-    }],
+    description = "",
+    benefits = [
+      {
+        icon: "Truck",
+        label: "Entrega em todo Brasil",
+        description: "Consulte o prazo no fechamento da compra.",
+      },
+      {
+        icon: "Discount",
+        label: "15% na primeira compra",
+        description: "Aplicado direto na sacola de compras.",
+      },
+      {
+        icon: "ArrowsPointingOut",
+        label: "Devolução grátis",
+        description: "Veja as condições para devolver seu produto.",
+      },
+    ],
     layout,
   } = props;
 
   const listOfBenefits = benefits.map((benefit, index) => {
     const showDivider = index < benefits.length - 1;
     const reverse = layout?.variation === "Color reverse";
-    const benefitLayout = !layout?.variation || layout?.variation === "Simple"
-      ? "tiled"
-      : "piledup";
+    const benefitLayout =
+      !layout?.variation || layout?.variation === "Simple"
+        ? "tiled"
+        : "piledup";
 
     return (
       <div
@@ -90,7 +93,7 @@ export default function Benefits(
           </div>
           <p
             class={`text-sm leading-5 ${
-              reverse ? "text-base-100" : "text-neutral"
+              reverse ? "text-base-100" : "text-base-content"
             } ${benefitLayout == "piledup" ? "hidden lg:block" : ""}`}
           >
             {benefit.description}
@@ -102,22 +105,22 @@ export default function Benefits(
 
   return (
     <>
-      {!layout?.variation || layout?.variation === "Simple"
-        ? (
-          <div class="w-full container px-4 py-8 flex flex-col gap-8 lg:gap-10 lg:py-10 lg:px-0">
-            <Header
-              title={title}
-              description={description}
-              alignment={layout?.headerAlignment || "center"}
-            />
-            <div class="w-full flex justify-center">
-              <div class="flex flex-col gap-4 lg:gap-8 w-full lg:grid grid-flow-col auto-cols-fr">
-                {listOfBenefits}
-              </div>
+      {!layout?.variation || layout?.variation === "Simple" ? (
+        <div class="w-full container px-4 py-8 flex flex-col gap-8 lg:gap-10 lg:py-10 lg:px-0">
+          <Header
+            title={title}
+            description={description}
+            alignment={layout?.headerAlignment || "center"}
+          />
+          <div class="w-full flex justify-center">
+            <div class="flex flex-col gap-4 lg:gap-8 w-full lg:grid grid-flow-col auto-cols-fr">
+              {listOfBenefits}
             </div>
           </div>
-        )
-        : ""}
+        </div>
+      ) : (
+        ""
+      )}
       {layout?.variation === "With border" && (
         <div class="w-full container flex flex-col px-4 py-8 gap-8 lg:gap-10 lg:py-10 lg:px-0">
           <Header
