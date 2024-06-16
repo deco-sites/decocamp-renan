@@ -1,10 +1,10 @@
 {
-  "name": "Quem somos",
-  "path": "/quem-somos",
+  "name": "Culturas",
+  "path": "/culturas",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "Quem Somos",
+      "title": "Culturas",
       "description": "Com a deco.cx, a \"Conexões Culturais\" consegue focar no que realmente importa: celebrar a diversidade cultural e proporcionar aos nossos clientes uma jornada de descobertas inesquecíveis.",
       "type": "website",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/8d2fd97d-2c09-4404-8c73-3d511d79893d",
