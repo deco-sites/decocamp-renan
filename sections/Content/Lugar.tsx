@@ -6,6 +6,7 @@ import BannerCarousel, {
 export interface Props {
   banners?: BannerCarouselProps;
   temperature: Temperature | null;
+  /** @format html */
   text: string;
 }
 

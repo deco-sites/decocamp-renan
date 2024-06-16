@@ -14,39 +14,41 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "site/sections/Content/Hero.tsx",
-      "title": "<div><div>Conexões Culturais</div></div>",
-      "description": "Na \"Conexões Culturais\", celebramos a diversidade cultural e promovemos a inclusão através de produtos e experiências inspiradas nas diferentes culturas do Brasil. Nossa loja online é uma plataforma interativa onde pessoas podem aprender, compartilhar e se conectar por meio de vivências culturais significativas. Para materializar essa visão, escolhemos a deco.cx, uma plataforma moderna que nos permite criar um site ultrarrápido e altamente personalizável. Com a deco.cx, podemos gerenciar nosso conteúdo facilmente, utilizando uma stack tecnológica eficiente com Preact, Tailwind e Deno, garantindo desempenho excepcional e uma experiência de usuário de alta qualidade. A infraestrutura global de deploy da deco.cx assegura que nossos visitantes tenham a melhor navegação, melhorando nosso SEO e aumentando nossas taxas de conversão. Assim, podemos focar no que realmente importa: proporcionar aos nossos clientes uma jornada de descobertas inesquecíveis e celebrar a diversidade que torna o Brasil tão especial.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/c5871dd8-e06c-44b1-affa-d7a82132072b",
-      "placement": "right",
-      "cta": [
-        {
-          "variant": "Normal",
-          "href": "https://deco.cx/",
-          "text": "Conheça a Deco.cx"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Content/Benefits.tsx",
-      "benefits": [
-        {
-          "icon": "Heart",
-          "label": "Culinária Internacional",
-          "description": "Uma seção dedicada a ingredientes autênticos, especiarias e receitas tradicionais de diversas culinárias ao redor do mundo. Os clientes podem comprar kits de ingredientes para preparar pratos típicos de diferentes países e também participar de workshops de culinária ao vivo conduzidos por chefs locais."
-        },
-        {
-          "icon": "User",
-          "description": "Uma coleção de artesanatos únicos, obras de arte e decorações inspiradas em diversas culturas. Isso inclui esculturas, máscaras tribais, pinturas, tecelagens, cerâmicas e outros itens feitos à mão por artistas locais de diferentes partes do mundo.",
-          "label": "Artes e Artesanato"
-        },
-        {
-          "icon": "Star",
-          "label": "Moda e Acessórios",
-          "description": "Uma variedade de roupas, acessórios e joias inspiradas em estilos tradicionais de diferentes culturas. Isso inclui roupas étnicas, lenços bordados à mão, bolsas de couro artesanais e muito mais, tudo projetado por designers locais que valorizam técnicas de fabricação tradicionais."
-        }
-      ],
-      "title": "Nossos produtos e experiências vão te supreender"
+      "__resolveType": "site/sections/Content/Lugar.tsx",
+      "text": "<p><strong>Sorocaba</strong> é um município brasileiro no interior do estado de <strong>São Paulo</strong>. É a segunda cidade mais populosa do interior paulista, precedida por Campinas, e a mais populosa da região sudeste paulista, com uma população de 723.682 habitantes, de acordo com o Censo 2022 realizado pelo IBGE. Considerada uma capital regional, Sorocaba possui uma área de 450,38 km². O município está integrado ao <u>Complexo Metropolitano Expandido</u>, junto com a Grande São Paulo, as regiões metropolitanas de Campinas, Jundiaí, Piracicaba, Baixada Santista, e Vale do Paraíba e Litoral Norte. Este complexo é uma megalópole que ultrapassa os 30 milhões de habitantes, representando cerca de 75% da população paulista e sendo a primeira aglomeração urbana do tipo no hemisfério sul.</p><p><br data-mce-bogus=\"1\"></p><p>A <u>Região Metropolitana de Sorocaba</u> é composta por 27 municípios que somam aproximadamente 2,06 milhões de habitantes. Sorocaba é um importante <em>polo industrial</em> do estado de São Paulo e do Brasil, com sua produção industrial alcançando mais de 120 países. A cidade tem um PIB acima dos R$ 32 bilhões, sendo o décimo nono maior do país, superando capitais como São Luís, Belém, Vitória, Natal e Florianópolis. As principais bases de sua economia são os setores de <strong>indústria</strong>, <strong>comércio</strong> e <strong>serviços</strong>, com mais de 22 mil empresas instaladas, incluindo mais de duas mil indústrias.</p>",
+      "temperature": {
+        "__resolveType": "weather/loaders/temperature.ts",
+        "lat": 23.4709,
+        "long": 47.4851
+      },
+      "banners": {
+        "images": [
+          {
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/364b4051-012b-4471-99b6-4343cc43e83c",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/3e490515-5ff5-4fc4-a81d-2e9defecee44",
+            "alt": "parque kasatu maru sorocaba",
+            "action": {
+              "href": "https://turismo.sorocaba.sp.gov.br/visite/parque-kasato-maru/",
+              "title": "Parque Kasatu Maru",
+              "subTitle": "A 8ª Festa Beneficente da Colônia Japonesa de Sorocaba, organizada pela União Cultural e Esportiva Nipo-Brasileira de Sorocaba (Ucens)",
+              "label": "Saiba mais"
+            }
+          },
+          {
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/3a193f8e-b9dc-42ed-aae0-1d9960ea99d4",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/e662df3a-2fa0-491d-a4e9-9dfdd822f3cf",
+            "alt": "ufscar sorocaba",
+            "action": {
+              "subTitle": "formação de profissionais e cidadãos críticos e com a produção de conhecimento científico e tecnológico de alta qualidade",
+              "title": "UFCar Sorocaba",
+              "href": "https://www.sorocaba.ufscar.br/o-campus",
+              "label": "Saiba mais"
+            }
+          }
+        ],
+        "arrows": true,
+        "interval": 3
+      }
     },
     {
       "__resolveType": "Footer - 04"
