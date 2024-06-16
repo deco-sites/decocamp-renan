@@ -14,6 +14,33 @@ export interface Props {
   vertical?: boolean;
 }
 
+export function LoadingFallback() {
+  return (
+    <ProductAd
+      product={{
+        title: "loading",
+        imageSrc:
+          "https://t4.ftcdn.net/jpg/03/16/15/47/360_F_316154790_pnHGQkERUumMbzAjkgQuRvDgzjAHkFaQ.jpg",
+      }}
+      adDescription="loading"
+    />
+  );
+}
+
+export function ErrorFallback() {
+  return (
+    <>
+      <ProductAd
+        product={{ title: "Lasanha", imageSrc: "https://static.itdg.com.br/images/360-240/ec2a5e38702c60bf1ace0b5f1c8e9415/shutterstock-739787011.jpg" }}
+        adDescription={"Lasanha é um prato típico da culinária italiana, que consiste em camadas de massa intercaladas com molho de carne, molho branco e queijo."}
+      />
+      <a href="/culturas">
+        <Button>para saber mais</Button>
+      </a>
+    </>
+  );
+}
+
 export default function ProductAd(props: Props) {
   const { product, adDescription } = props;
   const description = adDescription ?? product.description;
