@@ -5,90 +5,13 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "site/sections/Images/Carousel.tsx",
-            "dots": false,
-            "arrows": true,
-            "images": [
-              {
-                "alt": "Feminino",
-                "action": {
-                  "href": "/feminino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              },
-              {
-                "alt": "Masculino",
-                "action": {
-                  "href": "/masculino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              },
-              {
-                "alt": "Vestidos",
-                "action": {
-                  "href": "/feminino/roupas/vestidos",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              }
-            ],
-            "preload": true
-          },
-          "rule": {
-            "__resolveType": "Teste AB"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Images/Carousel.tsx",
-            "dots": false,
-            "arrows": true,
-            "images": [
-              {
-                "alt": "Feminino",
-                "action": {
-                  "href": "/feminino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/316ad344-6c51-4235-9577-5b66563dbcec",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/ddbfed1b-a0c5-4e6c-92a5-a12e790e941c"
-              },
-              {
-                "alt": "Masculino",
-                "action": {
-                  "href": "/masculino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/8d2fd97d-2c09-4404-8c73-3d511d79893d",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/47fbea96-b0e5-4467-8a1c-cb83b612076a"
-              }
-            ],
-            "preload": true
-          },
-          "rule": {
-            "__resolveType": "website/matchers/always.ts"
-          }
-        }
-      ]
+      "__resolveType": "site/sections/Product/ProductAd.tsx",
+      "product": {
+        "title": "Pintura \"A noite estrelada\"",
+        "description": "A Noite Estrelada é uma pintura a óleo sobre tela do pintor pós-impressionista holandês Vincent van Gogh, pintada em junho de 1889. Ela retrata a vista da janela voltada para o leste de seu quarto de asilo em Saint-Rémy-de-Provence, pouco antes do nascer do sol, com a adição de uma aldeia imaginária.",
+        "price": "109,99",
+        "imageSrc": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/5b114129-7ef8-4277-9f45-22a153eafe5a"
+      }
     },
     {
       "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
