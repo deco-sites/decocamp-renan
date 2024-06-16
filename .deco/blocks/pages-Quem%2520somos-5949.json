@@ -49,6 +49,10 @@
       "title": "Nossos produtos e experiências vão te supreender"
     },
     {
+      "__resolveType": "site/sections/Content/Cupom.tsx",
+      "icon": "Discount"
+    },
+    {
       "__resolveType": "Footer - 04"
     }
   ],
