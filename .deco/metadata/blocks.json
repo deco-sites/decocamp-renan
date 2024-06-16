@@ -322,5 +322,11 @@
     "path": "/quem-somos",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Culturas-448218.json": {
+    "name": "Culturas",
+    "path": "/culturas",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
