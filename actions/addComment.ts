@@ -9,7 +9,7 @@ export interface Props {
 export default async function addComment(
   { productId, comment }: Props,
   _req: Request,
-  _ctx: AppContext
+  _ctx: AppContext,
 ) {
   const response = await fetch("https://camp-api.deco.cx/event", {
     method: "POST",

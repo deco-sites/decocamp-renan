@@ -1,0 +1,27 @@
+{
+  "name": "My New Page",
+  "path": "/stats",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Quem Somos",
+      "description": "Com a deco.cx, a \"Conexões Culturais\" consegue focar no que realmente importa: celebrar a diversidade cultural e proporcionar aos nossos clientes uma jornada de descobertas inesquecíveis.",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/8d2fd97d-2c09-4404-8c73-3d511d79893d",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/d965820c-1b81-47ac-9be1-117a550e5ff7"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Product/TotalEvents.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

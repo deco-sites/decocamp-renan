@@ -10,7 +10,8 @@
         "title": "Pintura \"A noite estrelada\"",
         "description": "A Noite Estrelada é uma pintura a óleo sobre tela do pintor pós-impressionista holandês Vincent van Gogh, pintada em junho de 1889. Ela retrata a vista da janela voltada para o leste de seu quarto de asilo em Saint-Rémy-de-Provence, pouco antes do nascer do sol, com a adição de uma aldeia imaginária.",
         "price": "109,99",
-        "imageSrc": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/5b114129-7ef8-4277-9f45-22a153eafe5a"
+        "imageSrc": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10804/5b114129-7ef8-4277-9f45-22a153eafe5a",
+        "id": 1
       }
     },
     {

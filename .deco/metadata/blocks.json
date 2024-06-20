@@ -328,5 +328,11 @@
     "path": "/culturas",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-My%2520New%2520Page-551601.json": {
+    "name": "My New Page",
+    "path": "/stats",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

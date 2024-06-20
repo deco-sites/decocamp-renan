@@ -7,6 +7,7 @@ import ProductSaveModal from "../../islands/ProductSaveModal.tsx";
 
 export interface Props {
   product: {
+    id: number;
     title?: string;
     description?: string;
     price?: string;
@@ -20,6 +21,7 @@ export function LoadingFallback() {
   return (
     <ProductAd
       product={{
+        id: 1,
         title: "loading",
         imageSrc:
           "https://t4.ftcdn.net/jpg/03/16/15/47/360_F_316154790_pnHGQkERUumMbzAjkgQuRvDgzjAHkFaQ.jpg",
@@ -34,6 +36,7 @@ export function ErrorFallback() {
     <>
       <ProductAd
         product={{
+          id: 1,
           title: "Lasanha",
           imageSrc:
             "https://static.itdg.com.br/images/360-240/ec2a5e38702c60bf1ace0b5f1c8e9415/shutterstock-739787011.jpg",
@@ -69,6 +72,7 @@ export default function ProductAd(props: Props) {
               />
               <div class="lg:hidden absolute top-2 right-2">
                 <ProductSaveModal
+                  productId={product.id}
                   image={product.imageSrc}
                   title={product.title}
                 >
@@ -89,6 +93,7 @@ export default function ProductAd(props: Props) {
                 </div>
                 <div class="hidden lg:block self-end rounded-full">
                   <ProductSaveModal
+                    productId={product.id}
                     image={product.imageSrc}
                     title={product.title}
                   >
